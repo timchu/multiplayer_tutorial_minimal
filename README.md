@@ -1,4 +1,4 @@
- We are using this tutorial: https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/  to create a simple multiplayer game with trivial movement functionality.
+ We are using this tutorial: https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/  to create a simple multiplayer game with trivial movement functionality using arrow keys.
 
 Requires an NPM and node installation.
 
@@ -22,7 +22,7 @@ Run:
 
 > node server.js
 
-Access simple game on localhost:8081. Open two windows to test
+Access the simple game by opening ``localhost:8081'' on the web browser. Open two windows to test
 multiplayer functionality, and use the arrow
 keys to move ships around.
 
