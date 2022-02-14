@@ -1,6 +1,4 @@
- We are using this tutorial: https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/
-
- Phaser3 with sockets.io
+ We are using this tutorial: https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/ 
 
 Run node server.js
 Access simple game on localhost:8081. Open two windows to test
