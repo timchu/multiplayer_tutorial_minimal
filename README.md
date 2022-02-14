@@ -4,23 +4,23 @@ Requires an NPM and node installation.
 
 Run (to install npm packages):
 
-npm i
+> npm i
 
-npm i express
+> npm i express
 
-npm i http
+> npm i http
 
-npm i jsdom
+> npm i jsdom
 
-npm i socket.io
+> npm i socket.io
 
-npm i datauri
+> npm i datauri
 
 Then to start server:
 
 Run:
 
-node server.js
+> node server.js
 
 Access simple game on localhost:8081. Open two windows to test
 multiplayer functionality, and use the arrow
