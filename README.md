@@ -6,25 +6,8 @@ Run (to install npm packages):
 
 > npm i
 
-If that doesn't work, manually install:
-
-> npm i express
-
-> npm i http
-
-> npm i jsdom
-
-> npm i socket.io
-
-> npm i datauri
-
 Then to start server:
 
-Run:
-
-> node server.js
-
-or
 
 > npm start
 
