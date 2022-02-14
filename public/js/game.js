@@ -73,16 +73,18 @@ function update() {
     };
     if (this.cursors.left.isDown) {
       this.ship.setAngularVelocity(-150);
+      this.ship.setVelocityX(-400)
     } else if (this.cursors.right.isDown) {
       this.ship.setAngularVelocity(150);
-    } else {
-      this.ship.setAngularVelocity(0);
-    }
-  
-    if (this.cursors.up.isDown) {
-      this.physics.velocityFromRotation(this.ship.rotation + 1.5, 100, this.ship.body.acceleration);
+      this.ship.setVelocityX(400)
+    } else if (this.cursors.up.isDown) {
+      this.ship.setVelocityY(-400)
+      //this.physics.velocityFromRotation(this.ship.rotation + 1.5, 100, this.ship.body.acceleration);
+    } else if (this.cursors.down.isDown) {
+      this.ship.setVelocityY(400)
     } else {
       this.ship.setAcceleration(0);
+      this.ship.setVelocity(0);
     }
   
     //this.physics.world.wrap(this.ship, 5);
