@@ -6,6 +6,8 @@ Run (to install npm packages):
 
 > npm i
 
+If that doesn't work, manually install:
+
 > npm i express
 
 > npm i http
@@ -21,6 +23,10 @@ Then to start server:
 Run:
 
 > node server.js
+
+or
+
+> npm start
 
 Access the simple game by opening "localhost:8081" (without the quotes) on the web browser. Open two windows to test
 multiplayer functionality, and use the arrow

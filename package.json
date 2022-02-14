@@ -1,16 +1,32 @@
 {
-  "name": "node",
-  "version": "14.7.0",
-  "description": "",
+  "name": "multiplayer-game-simple",
+  "version": "1.0.0",
+  "description": "We are using this tutorial: https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/  to create a simple multiplayer game with trivial movement functionality using arrow keys.",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1",
+    "jsdom": "^19.0.0",
+    "jade": "^1.10.0",
+    "datauri": "^4.1.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timchu/multiplayer_tutorial_minimal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timchu/multiplayer_tutorial_minimal/issues"
+  },
+  "homepage": "https://github.com/timchu/multiplayer_tutorial_minimal#readme"
 }
