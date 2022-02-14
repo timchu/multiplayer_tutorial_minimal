@@ -22,7 +22,7 @@ Run:
 
 > node server.js
 
-Access the simple game by opening ``localhost:8081'' on the web browser. Open two windows to test
+Access the simple game by opening "localhost:8081" (without the quotes) on the web browser. Open two windows to test
 multiplayer functionality, and use the arrow
 keys to move ships around.
 
