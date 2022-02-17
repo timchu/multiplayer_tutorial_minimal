@@ -50,6 +50,7 @@ function create() {
       if (playerInfo.playerId === otherPlayer.playerId) {
         otherPlayer.setRotation(playerInfo.rotation);
         otherPlayer.setPosition(playerInfo.x, playerInfo.y);
+        console.log("player moved");
       }
     });
   });
